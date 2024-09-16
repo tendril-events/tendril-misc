@@ -1,22 +1,83 @@
 <mjml>
-  <mj-body>
-    <mj-section background-color="white">
-      <mj-column>
+  <mj-head>
+    <mj-font
+      name="DM Sans"
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+    />
+    <mj-attributes>
+      <mj-all font-family="DM Sans, Arial" />
+      <mj-text align="right" padding="0px" color="#4B5563" />
+      <mj-divider padding="12px 0px 12px 24px" />
+    </mj-attributes>
+  </mj-head>
+  <mj-body background-color="white">
+    <mj-section
+      background-color="white"
+      padding="12px 24px"
+      full-width="full-width"
+    >
+      <mj-column vertical-align="bottom">
         <mj-image
-          width="64px"
-          src="https://raw.githubusercontent.com/tendril-events/tendril-misc/main/email-signatures/img/tendril-logo.png?token=GHSAT0AAAAAACXLZG2VRCRRZIDSMGUEWPLWZXIDENQ"
+          src="./img/left-column.png"
           alt="Company Logo"
+          padding="0px"
+          align="right"
         />
-        <mj-text font-style="italic" color="#888888"
-          >"Innovating for a better tomorrow"</mj-text
-        >
       </mj-column>
-      <mj-column>
-        <mj-text font-size="18px" font-weight="bold">John Doe</mj-text>
-        <mj-text font-size="14px">Phone: (123) 456-7890</mj-text>
-        <mj-text font-size="14px">Email: john.doe@example.com</mj-text>
-        <mj-text font-size="14px">Company: ABC Corporation</mj-text>
-      </mj-column>
+      <mj-group>
+        <mj-column vertical-align="bottom" width="80%">
+          <mj-divider border-width="0px" border-color="lightgrey" />
+          <mj-text font-size="15px" font-weight="300" line-height="32px"
+            >Jeroen Gunster</mj-text
+          >
+          <mj-text font-size="10px" font-weight="100">Founder</mj-text>
+
+          <mj-divider border-width="0px" border-color="lightgrey" />
+          <mj-text font-size="12px" font-weight="200" line-height="24px"
+            >(+32) 477 / 21 . 50 . 47</mj-text
+          >
+          <mj-text font-size="12px" font-weight="200" line-height="24px"
+            >jeroen@tendril.be</mj-text
+          >
+          <mj-text font-size="12px" font-weight="200" line-height="24px"
+            >www.tendril.be</mj-text
+          >
+        </mj-column>
+        <mj-column width="20%">
+          <mj-image
+            src="./img/jeroen-profile.png"
+            alt="Profile Picture"
+            padding="30px 0px 0px 12px"
+            width="42px"
+            height="42px"
+            align="right"
+          />
+          <mj-image
+            src="./img/phone.png"
+            alt="Profile Picture"
+            padding="23px 0px 0px 18px"
+            height="14px"
+            width="14px"
+            align="left"
+          />
+          <mj-image
+            src="./img/mail.png"
+            alt="Profile Picture"
+            padding="11px 0px 0px 18px"
+            height="14px"
+            width="14px"
+            align="left"
+          />
+          <mj-image
+            src="./img/link.png"
+            alt="Profile Picture"
+            padding="9px 0px 0px 18px"
+            height="14px"
+            width="14px"
+            align="left"
+          />
+        </mj-column>
+      </mj-group>
     </mj-section>
   </mj-body>
 </mjml>
