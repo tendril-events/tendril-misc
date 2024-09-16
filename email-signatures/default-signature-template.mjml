@@ -6,78 +6,107 @@
     />
     <mj-attributes>
       <mj-all font-family="DM Sans, Arial" />
-      <mj-text align="right" padding="0px" color="#4B5563" />
+      <mj-text
+        align="left"
+        padding="0px"
+        color="#4B5563"
+        text-decoration="none"
+      />
       <mj-divider padding="12px 0px 12px 24px" />
     </mj-attributes>
   </mj-head>
   <mj-body background-color="white">
     <mj-section
-      background-color="white"
+      background-color="#F5F5F5"
       padding="12px 24px"
-      full-width="full-width"
+      border-radius="16px"
     >
-      <mj-column vertical-align="bottom">
-        <mj-image
-          src="https://raw.githubusercontent.com/tendril-events/tendril-misc/main/email-signatures/img/left-column.png"
-          alt="Company Logo"
-          padding="0px"
-          align="right"
-        />
-      </mj-column>
-      <mj-group>
-        <mj-column vertical-align="bottom" width="80%">
-          <mj-divider border-width="0px" border-color="lightgrey" />
-          <mj-text font-size="15px" font-weight="300" line-height="32px"
-            >Jeroen Gunster</mj-text
-          >
-          <mj-text font-size="10px" font-weight="100">Founder</mj-text>
-
-          <mj-divider border-width="0px" border-color="lightgrey" />
-          <mj-text font-size="12px" font-weight="200" line-height="24px"
-            >(+32) 477 / 21 . 50 . 47</mj-text
-          >
-          <mj-text font-size="12px" font-weight="200" line-height="24px"
-            >jeroen@tendril.be</mj-text
-          >
-          <mj-text font-size="12px" font-weight="200" line-height="24px"
-            >www.tendril.be</mj-text
-          >
-        </mj-column>
-        <mj-column width="20%">
+      <mj-group width="40%">
+        <mj-column width="21%">
           <mj-image
             src="https://raw.githubusercontent.com/tendril-events/tendril-misc/main/email-signatures/img/jeroen-profile.png"
             alt="Profile Picture"
-            padding="30px 0px 0px 12px"
+            padding="6px 0px 0px 0px"
             width="42px"
             height="42px"
             align="right"
           />
+        </mj-column>
+        <mj-column width="79%">
+          <mj-text
+            font-size="15px"
+            font-weight="300"
+            line-height="32px"
+            padding-left="12px"
+            >Jeroen Gunster</mj-text
+          >
+          <mj-text font-size="12px" font-weight="100" padding-left="12px"
+            >Founder</mj-text
+          >
+          <mj-divider border-width="0px" />
+        </mj-column>
+      </mj-group>
+      <mj-group width="40%">
+        <mj-column width="21%">
           <mj-image
             src="https://raw.githubusercontent.com/tendril-events/tendril-misc/main/email-signatures/img/phone.png"
-            alt="Profile Picture"
-            padding="23px 0px 0px 18px"
+            alt="Phone icon"
+            padding="6px 0px 0px 0px"
             height="14px"
             width="14px"
-            align="left"
+            align="right"
           />
           <mj-image
             src="https://raw.githubusercontent.com/tendril-events/tendril-misc/main/email-signatures/img/mail.png"
-            alt="Profile Picture"
-            padding="11px 0px 0px 18px"
+            alt="Mail icon"
+            padding="11px 0px 0px 0px"
             height="14px"
             width="14px"
-            align="left"
+            align="right"
           />
           <mj-image
             src="https://raw.githubusercontent.com/tendril-events/tendril-misc/main/email-signatures/img/link.png"
-            alt="Profile Picture"
-            padding="9px 0px 0px 18px"
+            alt="Link icon"
+            padding="9px 0px 0px 0px"
             height="14px"
             width="14px"
-            align="left"
+            align="right"
           />
         </mj-column>
+        <mj-column width="79%">
+          <mj-text
+            font-size="12px"
+            font-weight="200"
+            line-height="24px"
+            padding-left="12px"
+            >(+32) 477 / 21 . 50 . 47</mj-text
+          >
+          <mj-text
+            font-size="12px"
+            font-weight="200"
+            line-height="24px"
+            padding-left="12px"
+            >jeroen@tendril.be</mj-text
+          >
+          <mj-text
+            font-size="12px"
+            font-weight="200"
+            line-height="24px"
+            padding-left="12px"
+            >www.tendril.be</mj-text
+          >
+        </mj-column>
       </mj-group>
+      <mj-column width="20%">
+        <mj-image
+          src=".https://raw.githubusercontent.com/tendril-events/tendril-misc/main/email-signatures/img/tendril-logo.png"
+          alt="Company Logo"
+          padding="0px"
+          width="32px"
+          height="32px"
+          align="right"
+        />
+      </mj-column>
     </mj-section>
   </mj-body>
 </mjml>
