@@ -99,7 +99,7 @@
       </mj-group>
       <mj-column width="20%">
         <mj-image
-          src=".https://raw.githubusercontent.com/tendril-events/tendril-misc/main/email-signatures/img/tendril-logo.png"
+          src="https://raw.githubusercontent.com/tendril-events/tendril-misc/main/email-signatures/img/tendril-logo.png"
           alt="Company Logo"
           padding="0px"
           width="32px"
