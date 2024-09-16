@@ -18,7 +18,7 @@
     >
       <mj-column vertical-align="bottom">
         <mj-image
-          src="./img/left-column.png"
+          src="https://raw.githubusercontent.com/tendril-events/tendril-misc/main/email-signatures/img/left-column.png"
           alt="Company Logo"
           padding="0px"
           align="right"
@@ -45,7 +45,7 @@
         </mj-column>
         <mj-column width="20%">
           <mj-image
-            src="./img/jeroen-profile.png"
+            src="https://raw.githubusercontent.com/tendril-events/tendril-misc/main/email-signatures/img/jeroen-profile.png"
             alt="Profile Picture"
             padding="30px 0px 0px 12px"
             width="42px"
@@ -53,7 +53,7 @@
             align="right"
           />
           <mj-image
-            src="./img/phone.png"
+            src="https://raw.githubusercontent.com/tendril-events/tendril-misc/main/email-signatures/img/phone.png"
             alt="Profile Picture"
             padding="23px 0px 0px 18px"
             height="14px"
@@ -61,7 +61,7 @@
             align="left"
           />
           <mj-image
-            src="./img/mail.png"
+            src="https://raw.githubusercontent.com/tendril-events/tendril-misc/main/email-signatures/img/mail.png"
             alt="Profile Picture"
             padding="11px 0px 0px 18px"
             height="14px"
@@ -69,7 +69,7 @@
             align="left"
           />
           <mj-image
-            src="./img/link.png"
+            src="https://raw.githubusercontent.com/tendril-events/tendril-misc/main/email-signatures/img/link.png"
             alt="Profile Picture"
             padding="9px 0px 0px 18px"
             height="14px"
