@@ -15,12 +15,8 @@
       <mj-divider padding="12px 0px 12px 24px" />
     </mj-attributes>
   </mj-head>
-  <mj-body background-color="white">
-    <mj-section
-      background-color="#F5F5F5"
-      padding="12px 24px"
-      border-radius="16px"
-    >
+  <mj-body background-color="white" width="600px">
+    <mj-section background-color="#F5F5F5" padding="24px" border-radius="16px">
       <mj-group width="40%">
         <mj-column width="21%">
           <mj-image
@@ -46,57 +42,31 @@
           <mj-divider border-width="0px" />
         </mj-column>
       </mj-group>
-      <mj-group width="40%">
-        <mj-column width="21%">
-          <mj-image
-            src="https://raw.githubusercontent.com/tendril-events/tendril-misc/main/email-signatures/img/phone.png"
-            alt="Phone icon"
-            padding="6px 0px 0px 0px"
-            height="14px"
-            width="14px"
-            align="right"
-          />
-          <mj-image
-            src="https://raw.githubusercontent.com/tendril-events/tendril-misc/main/email-signatures/img/mail.png"
-            alt="Mail icon"
-            padding="11px 0px 0px 0px"
-            height="14px"
-            width="14px"
-            align="right"
-          />
-          <mj-image
-            src="https://raw.githubusercontent.com/tendril-events/tendril-misc/main/email-signatures/img/link.png"
-            alt="Link icon"
-            padding="9px 0px 0px 0px"
-            height="14px"
-            width="14px"
-            align="right"
-          />
-        </mj-column>
-        <mj-column width="79%">
-          <mj-text
-            font-size="12px"
-            font-weight="200"
-            line-height="24px"
-            padding-left="12px"
-            >(+32) 477 / 21 . 50 . 47</mj-text
-          >
-          <mj-text
-            font-size="12px"
-            font-weight="200"
-            line-height="24px"
-            padding-left="12px"
-            >jeroen@tendril.be</mj-text
-          >
-          <mj-text
-            font-size="12px"
-            font-weight="200"
-            line-height="24px"
-            padding-left="12px"
-            >www.tendril.be</mj-text
-          >
-        </mj-column>
-      </mj-group>
+
+      <mj-column width="40%">
+        <mj-text
+          font-size="12px"
+          font-weight="200"
+          line-height="24px"
+          padding-left="12px"
+          ><b>M: </b>(+32) 477 / 21 . 50 . 47</mj-text
+        >
+        <mj-text
+          font-size="12px"
+          font-weight="200"
+          line-height="24px"
+          padding-left="12px"
+          ><b>E: </b>jeroen@tendril.be</mj-text
+        >
+        <mj-text
+          font-size="12px"
+          font-weight="200"
+          line-height="24px"
+          padding-left="12px"
+          ><b>W: </b>www.tendril.be</mj-text
+        >
+      </mj-column>
+
       <mj-column width="20%">
         <mj-image
           src="https://raw.githubusercontent.com/tendril-events/tendril-misc/main/email-signatures/img/tendril-logo.png"
